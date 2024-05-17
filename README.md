@@ -12,7 +12,8 @@
             display: flex;
             justify-content: center;
             align-items: center;
-            background: url(https://github.com/philippezonneveld12/rorox/assets/170119661/772bb334-bb59-4107-837d-06bdfb40f7c4)
+            background: url(<img width="432" alt="Schermafbeelding 2024-05-17 om 20 28 27" src="https://github.com/philippezonneveld12/rorox.nl/assets/170119661/495136fc-d4c6-4721-a88a-dd72aaacc81e">
+
 ) no-repeat center center fixed;
             background-size: cover;
         }
