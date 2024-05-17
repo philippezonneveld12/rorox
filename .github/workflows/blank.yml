@@ -3,8 +3,16 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Welcome to Rorox.nl">
     <title>Rorox.nl</title>
     <style>
+        /* CSS Reset */
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
         body, html {
             height: 100%;
             margin: 0;
@@ -14,12 +22,14 @@
             background: url('https://github.com/philippezonneveld12/rorox.nl/assets/170119661/495136fc-d4c6-4721-a88a-dd72aaacc81e') no-repeat center center fixed;
             background-size: cover;
         }
+
         .text-center {
             font-size: 48px;
             color: white;
             background-color: rgba(0, 0, 0, 0.5);
             padding: 20px;
             border-radius: 10px;
+            text-align: center;
         }
     </style>
 </head>
