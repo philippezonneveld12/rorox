@@ -34,7 +34,7 @@
 <body>
     <h1>Agro tuin beetje</h1>
     <div class="container">
-        <img src="[https://via.placeholder.com/300x200?text=Bloem1" alt="Bloem 1](https://www.wooninspiratie.nl/wp-content/uploads/2024/03/bloementuin-1000x450.jpg)">
+        <img src="https://via.placeholder.com/300x200?text=Bloem1" alt="Bloem 1](https://www.wooninspiratie.nl/wp-content/uploads/2024/03/bloementuin-1000x450.jpg)">
         <img src="https://via.placeholder.com/300x200?text=Bloem2" alt="Bloem 2">
         <img src="https://via.placeholder.com/300x200?text=Weiland" alt="Agrarisch weiland">
     </div>
