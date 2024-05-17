@@ -5,6 +5,9 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Rorox.nl</title>
     <style>
+        *, *::before, *::after {
+            box-sizing: border-box;
+        }
         body, html {
             height: 100%;
             margin: 0;
@@ -20,6 +23,7 @@
             background-color: rgba(0, 0, 0, 0.5);
             padding: 20px;
             border-radius: 10px;
+            text-align: center;
         }
     </style>
 </head>
@@ -27,4 +31,3 @@
     <div class="text-center">boetje</div>
 </body>
 </html>
-
