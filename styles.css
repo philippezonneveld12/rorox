@@ -1,67 +1,68 @@
 body {
-    font-family: Arial, sans-serif;
-    line-height: 1.6;
     margin: 0;
-    padding: 0;
-    background-color: #f4f4f4;
-    color: #333;
+    font-family: Arial, sans-serif;
+    background: url('images/bergen_kerk.jpg') no-repeat center center fixed;
+    background-size: cover;
+    color: #fff;
 }
 
 header {
-    background: #5f9ea0;
-    color: #fff;
-    padding: 10px 0;
+    background-color: rgba(0, 0, 0, 0.6);
+    padding: 20px;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
+    font-size: 2.5em;
 }
 
 header p {
-    margin: 5px 0 20px;
+    font-size: 1.2em;
 }
 
-section {
-    padding: 20px;
-    margin: 20px 0;
-    background: #fff;
-    border-radius: 8px;
-    box-shadow: 0 0 10px rgba(0,0,0,0.1);
-}
-
-.intro {
+section.intro {
     display: flex;
-    flex-wrap: wrap;
     align-items: center;
+    justify-content: center;
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .intro-img {
-    max-width: 100%;
-    height: auto;
-    flex: 1;
+    max-width: 300px;
     margin-right: 20px;
-    border-radius: 8px;
 }
 
 .intro-text {
-    flex: 2;
+    max-width: 600px;
 }
 
-h2 {
-    color: #5f9ea0;
+.intro-text p {
+    margin: 0;
+}
+
+section.legacy {
+    padding: 50px;
+    background-color: rgba(0, 0, 0, 0.6);
+    text-align: center;
+}
+
+section.legacy h2 {
+    margin-top: 0;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background: #333;
-    color: #fff;
-    margin-top: 20px;
+    background-color: rgba(0, 0, 0, 0.6);
+    position: fixed;
+    width: 100%;
+    bottom: 0;
 }
 
 footer a {
-    color: #5f9ea0;
+    color: #fff;
     text-decoration: none;
 }
 
