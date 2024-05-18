@@ -1,68 +1,67 @@
 body {
-    margin: 0;
     font-family: Arial, sans-serif;
-    background: url('.github/bergen_kerk.jpg') no-repeat center center fixed;
-    background-size: cover;
-    color: #fff;
+    line-height: 1.6;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+    color: #333;
 }
 
 header {
-    background-color: rgba(0, 0, 0, 0.6);
-    padding: 20px;
+    background: #5f9ea0;
+    color: #fff;
+    padding: 10px 0;
     text-align: center;
 }
 
 header h1 {
     margin: 0;
-    font-size: 2.5em;
 }
 
 header p {
-    font-size: 1.2em;
+    margin: 5px 0 20px;
 }
 
-section.intro {
+section {
+    padding: 20px;
+    margin: 20px 0;
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.1);
+}
+
+.intro {
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
-    justify-content: center;
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.6);
 }
 
 .intro-img {
-    max-width: 300px;
+    max-width: 100%;
+    height: auto;
+    flex: 1;
     margin-right: 20px;
+    border-radius: 8px;
 }
 
 .intro-text {
-    max-width: 600px;
+    flex: 2;
 }
 
-.intro-text p {
-    margin: 0;
-}
-
-section.legacy {
-    padding: 50px;
-    background-color: rgba(0, 0, 0, 0.6);
-    text-align: center;
-}
-
-section.legacy h2 {
-    margin-top: 0;
+h2 {
+    color: #5f9ea0;
 }
 
 footer {
     text-align: center;
     padding: 10px;
-    background-color: rgba(0, 0, 0, 0.6);
-    position: fixed;
-    width: 100%;
-    bottom: 0;
+    background: #333;
+    color: #fff;
+    margin-top: 20px;
 }
 
 footer a {
-    color: #fff;
+    color: #5f9ea0;
     text-decoration: none;
 }
 
