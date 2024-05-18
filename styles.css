@@ -10,7 +10,7 @@ body {
 header {
     background: #5f9ea0;
     color: #fff;
-    padding: 10px 0;
+    padding: 20px 0;
     text-align: center;
 }
 
@@ -19,25 +19,19 @@ header h1 {
 }
 
 header p {
-    margin: 5px 0 20px;
+    margin: 10px 0;
 }
 
 section {
     padding: 20px;
-    margin: 20px 0;
+    margin: 20px;
     background: #fff;
     border-radius: 8px;
     box-shadow: 0 0 10px rgba(0,0,0,0.1);
 }
 
-.intro {
-    display: flex;
-    flex-wrap: wrap;
-    align-items: center;
-}
-
 .intro-text {
-    flex: 2;
+    margin: 20px 0;
 }
 
 h2 {
